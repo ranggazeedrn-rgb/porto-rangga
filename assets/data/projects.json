@@ -1,0 +1,189 @@
+{
+  "profile": {
+    "name": "Rangga Ramadiyanto Nurhakim",
+    "nickname": "Rangga",
+    "tagline": "Software Engineering Student & Junior Fullstack Developer",
+    "bio": "Siswa kelas XII RPL 1 di SMK Muhammadiyah Kota Tasikmalaya yang berfokus pada pengembangan aplikasi web modern, RESTful API, dan antarmuka pengguna yang bersih serta interaktif. Antusias dalam mempelajari teknologi ekosistem JavaScript, PHP Laravel, serta arsitektur cloud.",
+    "school": "SMK Muhammadiyah Kota Tasikmalaya",
+    "grade": "Kelas XII RPL 1 (Rekayasa Perangkat Lunak)",
+    "status": "Tersedia untuk Magang & Kolaborasi Proyek",
+    "location": "Kota Tasikmalaya, Jawa Barat, Indonesia",
+    "email": "rangga.ramadiyanto@example.com",
+    "phone": "+62 812-3456-7890",
+    "github": "https://github.com/ranggazeedrn-rgb",
+    "linkedin": "https://linkedin.com/in/rangga-ramadiyanto",
+    "instagram": "https://instagram.com/ranggastrnnger"
+  },
+  "stats": [
+    { "value": "12+", "label": "Proyek Selesai" },
+    { "value": "1000+", "label": "Jam Koding & Praktik" },
+    { "value": "5+", "label": "Sertifikat Kompetensi" },
+    { "value": "3+", "label": "Tahun Belajar RPL" }
+  ],
+  "skills": [
+    {
+      "category": "Frontend Development",
+      "items": [
+        { "name": "HTML5 / Semantic", "level": "Mahir", "percent": 95, "icon": "code-2" },
+        { "name": "Tailwind CSS", "level": "Mahir", "percent": 90, "icon": "palette" },
+        { "name": "JavaScript (ES6+)", "level": "Menengah", "percent": 85, "icon": "terminal" },
+        { "name": "React.js / Next.js", "level": "Menengah", "percent": 80, "icon": "layers" },
+        { "name": "Responsive UI/UX", "level": "Mahir", "percent": 92, "icon": "smartphone" }
+      ]
+    },
+    {
+      "category": "Backend & Database",
+      "items": [
+        { "name": "PHP & Laravel", "level": "Menengah+", "percent": 85, "icon": "server" },
+        { "name": "Node.js & Express", "level": "Menengah", "percent": 78, "icon": "cpu" },
+        { "name": "RESTful API Design", "level": "Menengah+", "percent": 88, "icon": "webhook" },
+        { "name": "MySQL / PostgreSQL", "level": "Menengah+", "percent": 85, "icon": "database" },
+        { "name": "Firebase / Supabase", "level": "Menengah", "percent": 75, "icon": "flame" }
+      ]
+    },
+    {
+      "category": "Tools & Workflow",
+      "items": [
+        { "name": "Git & GitHub", "level": "Mahir", "percent": 88, "icon": "git-branch" },
+        { "name": "VS Code & Extensions", "level": "Mahir", "percent": 95, "icon": "command" },
+        { "name": "Postman API Testing", "level": "Menengah+", "percent": 85, "icon": "send" },
+        { "name": "Figma (UI Prototype)", "level": "Menengah", "percent": 78, "icon": "figma" },
+        { "name": "Linux / Bash CLI", "level": "Dasar-Menengah", "percent": 70, "icon": "terminal-square" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "mutu-presence",
+      "title": "MutuPresensi - Presensi QR & Geolocation",
+      "category": "web",
+      "categoryLabel": "Web Application",
+      "featured": true,
+      "icon": "qr-code",
+      "emblemColor": "text-sky-400",
+      "statusBadge": "GPS Geofence v2.0",
+      "codeSnippet": "Auth::validate(Geofence::inRadius($coord))",
+      "shortDesc": "Aplikasi presensi berbasis web real-time untuk sekolah dengan validasi radius lokasi GPS dan QR dinamis.",
+      "fullDesc": "Sistem informasi presensi digital yang dirancang untuk mempermudah pencatatan kehadiran siswa dan guru di lingkungan sekolah SMK Muhammadiyah Tasikmalaya. Dilengkapi dengan validasi lokasi berbasis Geofencing GPS untuk mencegah pemalsuan presensi, generator kode QR dinamis yang berganti tiap 30 detik, serta dashboard rekap kehadiran untuk wali kelas dan admin.",
+      "tags": ["Laravel 11", "MySQL", "Tailwind CSS", "Leaflet.js", "REST API"],
+      "demoUrl": "https://demo.example.com/mutupresensi",
+      "githubUrl": "https://github.com/rangga-ramadiyanto/mutu-presensi",
+      "metrics": ["99.8% Akurasi Validasi Lokasi", "Mendukung 500+ Pengguna Aktif"]
+    },
+    {
+      "id": "school-library-system",
+      "title": "LibMu - Perpustakaan Digital SMK Mutu",
+      "category": "web",
+      "categoryLabel": "Web Application",
+      "featured": true,
+      "icon": "book-open",
+      "emblemColor": "text-emerald-400",
+      "statusBadge": "Digital Book Catalog",
+      "codeSnippet": "const loan = await BookService.issueLoan(id)",
+      "shortDesc": "Platform manajemen sirkulasi buku, peminjaman digital, dan katalog koleksi perpustakaan modern.",
+      "fullDesc": "Sistem otomasi perpustakaan sekolah yang mengintegrasikan peminjaman buku menggunakan barcode scanner, penghitungan denda otomatis, pencarian buku cerdas dengan filter kategori, serta laporan statistik peminjaman bulanan yang dapat diexport ke PDF/Excel.",
+      "tags": ["React.js", "Express.js", "PostgreSQL", "Tailwind CSS", "JWT Auth"],
+      "demoUrl": "https://demo.example.com/libmu",
+      "githubUrl": "https://github.com/rangga-ramadiyanto/libmu-perpus",
+      "metrics": ["Katalog 1200+ Judul Buku", "Export Laporan Otomatis"]
+    },
+    {
+      "id": "e-commerce-umkm",
+      "title": "TasikCraft - Marketplace UMKM Bordir & Kerajinan",
+      "category": "web",
+      "categoryLabel": "E-Commerce",
+      "featured": true,
+      "icon": "shopping-bag",
+      "emblemColor": "text-amber-300",
+      "statusBadge": "Midtrans & RajaOngkir API",
+      "codeSnippet": "$order->calculateShipping(Courier::JNE)",
+      "shortDesc": "Platform e-commerce katalog produk kerajinan khas Tasikmalaya dengan integrasi checkout WhatsApp & Payment Gateway.",
+      "fullDesc": "Proyek kolaboratif untuk membantu pelaku UMKM di Kota Tasikmalaya memasarkan produk kerajinan bordir, payung geulis, dan anyaman mendong secara online. Menyediakan antarmuka katalog responsif, keranjang belanja interaktif, integrasi hitung ongkos kirim RajaOngkir API, dan order langsung via WhatsApp / Midtrans Sandbox.",
+      "tags": ["PHP MVC", "MySQL", "RajaOngkir API", "Midtrans", "Vanilla JS"],
+      "demoUrl": "https://demo.example.com/tasikcraft",
+      "githubUrl": "https://github.com/rangga-ramadiyanto/tasikcraft-umkm",
+      "metrics": ["Integrasi Multi-Kurir", "Desain Liquid Glass Minimalis"]
+    },
+    {
+      "id": "rest-api-school",
+      "title": "SchoolAPI - RESTful Core Services",
+      "category": "api",
+      "categoryLabel": "Backend / API",
+      "featured": false,
+      "icon": "server",
+      "emblemColor": "text-indigo-400",
+      "statusBadge": "25+ Endpoints • Swagger",
+      "codeSnippet": "app.use('/api/v1/auth', jwtAuthMiddleware)",
+      "shortDesc": "Layanan REST API modular untuk manajemen data akademik, nilai siswa, dan otentikasi role-based.",
+      "fullDesc": "Backend API tangguh dengan dokumentasi Swagger/OpenAPI lengkap. Memiliki fitur autentikasi token JWT, sanitasi input, rate-limiting, error logging terstruktur, dan middleware kontrol akses tingkat peran (Admin, Guru, Siswa).",
+      "tags": ["Node.js", "Express", "Swagger UI", "Jest Testing", "PostgreSQL"],
+      "demoUrl": "https://api.example.com/docs",
+      "githubUrl": "https://github.com/rangga-ramadiyanto/school-core-api",
+      "metrics": ["25+ Endpoint Teruji", "95% Code Coverage"]
+    },
+    {
+      "id": "mutu-academic-ui",
+      "title": "EduPortal Design System & UI Kit",
+      "category": "uiux",
+      "categoryLabel": "UI/UX Design",
+      "featured": false,
+      "icon": "layout",
+      "emblemColor": "text-cyan-400",
+      "statusBadge": "Figma Design System",
+      "codeSnippet": "tokens: { glassBlur: '20px', text: 'slate-50' }",
+      "shortDesc": "Rancangan antarmuka portal akademik sekolah bergaya Liquid Glass dengan panduan desain komponen lengkap di Figma.",
+      "fullDesc": "Konseptualisasi desain UI/UX untuk portal akademik modern. Berisi 40+ komponen reusable, panduan tipografi, token warna netral, varian light/dark mode, serta prototipe interaktif mikro-interaksi tombol dan transisi kartu.",
+      "tags": ["Figma", "Design System", "Auto-layout", "Liquid Glass", "Prototyping"],
+      "demoUrl": "https://figma.com/@rangga_rpl",
+      "githubUrl": "https://github.com/rangga-ramadiyanto/eduportal-uikit",
+      "metrics": ["40+ Reusable Components", "Auto-Layout & Dark/Light System"]
+    },
+    {
+      "id": "mobile-task-tracker",
+      "title": "TaskRPL - Mobile Task & Project Tracker",
+      "category": "api",
+      "categoryLabel": "Mobile / Frontend",
+      "featured": false,
+      "icon": "kanban",
+      "emblemColor": "text-teal-400",
+      "statusBadge": "Offline Sync • Supabase",
+      "codeSnippet": "useOfflineStore.syncWithSupabase(tasks)",
+      "shortDesc": "Aplikasi manajemen tugas produktivitas tim untuk siswa jurusan RPL dengan sinkronisasi cloud real-time.",
+      "fullDesc": "Aplikasi tracker tugas harian dan proyek kelompok dengan papan Kanban interaktif, pengingat deadline otomatis, attachment file proyek, dan mode offline dengan IndexedDB storage fallback.",
+      "tags": ["React Native / Web", "Tailwind", "Supabase", "PWA Support"],
+      "demoUrl": "https://demo.example.com/taskrpl",
+      "githubUrl": "https://github.com/rangga-ramadiyanto/task-rpl",
+      "metrics": ["Offline First Sync", "Kanban Drag & Drop"]
+    }
+  ],
+  "milestones": [
+    {
+      "period": "2023 - Sekarang (2025/2026)",
+      "title": "Siswa Rekayasa Perangkat Lunak 1",
+      "institution": "SMK Muhammadiyah Kota Tasikmalaya",
+      "description": "Menempuh pendidikan kejuruan konsentrasi Rekayasa Perangkat Lunak (RPL). Aktif dalam pembuatan proyek berbasis web, database architecture, dan kepanitiaan IT sekolah.",
+      "badge": "XII RPL 1"
+    },
+    {
+      "period": "Semester 5 (2025)",
+      "title": "Praktik Kerja Lapangan (PKL) - Web Developer Intern",
+      "institution": "Software House & Digital Agency Tasikmalaya",
+      "description": "Mengembangkan modul front-end aplikasi manajemen inventaris klien, integrasi REST API, dan perbaikan bug UI/UX antarmuka pengguna.",
+      "badge": "PKL Vokasi"
+    },
+    {
+      "period": "2024",
+      "title": "Sertifikasi Junior Web Developer (BNSP / Mitra Industri)",
+      "institution": "Lembaga Sertifikasi Profesi (LSP)",
+      "description": "Lulus uji kompetensi pembuatan aplikasi berbasis web dengan standar industri nasional mencakup HTML, CSS, JavaScript, PHP, dan MySQL.",
+      "badge": "Kompeten"
+    },
+    {
+      "period": "2023",
+      "title": "Peserta Lomba Web Design & Coding Competition",
+      "institution": "Tingkat Pelajar SMK Jawa Barat",
+      "description": "Membangun prototipe landing page interaktif berbasis accessibility dan responsive design dalam batas waktu 6 jam kompetisi.",
+      "badge": "Finalis"
+    }
+  ]
+}
